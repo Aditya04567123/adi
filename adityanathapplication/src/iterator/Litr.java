@@ -14,9 +14,7 @@ public class Litr {
 			al.add(75);
 			al.add(125);
 			al.add(175);
-			
-			
-			 ListIterator litr = al.listIterator(al.size());
+			ListIterator litr = al.listIterator(al.size());
 			 
 			 while (litr.hasPrevious()) {
 				 System.out.print(litr.previous() + " ");
