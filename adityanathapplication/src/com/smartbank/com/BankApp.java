@@ -33,7 +33,6 @@ public class BankApp {
                     double dep = sc.nextDouble();
                     bank.getAccount(accNo).deposit(dep);
                     break;
-
                 case 3:
                     System.out.print("Enter Account No: ");
                     accNo = sc.nextInt();
